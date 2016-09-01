@@ -7,7 +7,7 @@
         "experimentalDecorators": true,
         "removeComments": false,
         "noImplicitAny": false,
-        "out": "./js/",
+        "out": "./js/main.js",
         "watch":  true
     },
     "exclude": [
