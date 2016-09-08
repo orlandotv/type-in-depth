@@ -1,6 +1,6 @@
 import { Category } from './enums';
 import { Book, DamageLogger, Author, Librerian } from './interfaces';
-import { UniversityLibrarian } from './classes';
+import { UniversityLibrarian, Encyclopedia, ReferenceItem } from './classes';
 
 function GetAllBooks(): Book[] {
     let books = [
@@ -149,6 +149,22 @@ function PrintBook(book: Book): void {
 // logDamage = (damage: string) => console.log('Damage reporte: ' + damage);
 // logDamage('coffee stains');
 
-let favoriteLibrarian: Librerian = new UniversityLibrarian();
-favoriteLibrarian.name = 'Sharon';
-favoriteLibrarian.assistCustomer('Lynda');
+// let favoriteLibrarian: Librerian = new UniversityLibrarian();
+// favoriteLibrarian.name = 'Sharon';
+// favoriteLibrarian.assistCustomer('Lynda');
+
+// let ref = new ReferenceItem('Updated Facts and Figures', 2012);
+// ref.printItem();
+// ref.publisher = 'Random Data Publishing';
+// console.log(ref.publisher);
+
+// let refBook: ReferenceItem = new Encyclopedia('WorldPedia', 1900, 10);
+// refBook.printCitation();
+
+let Newspaper = class extends ReferenceItem {
+    printCitation(): void {
+        console.log(`Newspaper: ${this.title}`);
+    }
+}
+
+

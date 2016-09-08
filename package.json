@@ -1,0 +1,23 @@
+{
+  "name": "type-in-depth",
+  "version": "1.0.0",
+  "description": "following typescript in-depth course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlandotv/type-in-depth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orlandotv/type-in-depth/issues"
+  },
+  "homepage": "https://github.com/orlandotv/type-in-depth#readme",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  }
+}
